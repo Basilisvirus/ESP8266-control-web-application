@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<header>
+	<title>ESP8266 Webserver</title>
+	<h1>\"ESP8266 Web Server Control\"</h1>
+</header>
+<head>
+	<meta http-equiv='refresh' content='5'/>
+</head>
+
+<br/>Device1  : ON/OFF
+<br/>Device2  : ON/OFF
+<br/>Device3  : ON/OFF
+<br/>Device4  : ON/OFF
+
+</html>

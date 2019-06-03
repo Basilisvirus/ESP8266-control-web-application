@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<header>
+<title>ESP8266 Webserver</title>
+<h1>\"ESP8266 Web Server Control\"</h1>
+</header>
+
+<p>
+<form action=\"/LED1\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle LED1\">
+</form>
+Led1: ON/OFF
+</p>
+
+<p>
+<form action=\"/LED\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle LED\">
+</form>
+Led: ON/OFF
+</p>
+
+</html>

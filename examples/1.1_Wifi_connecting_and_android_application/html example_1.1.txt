@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<header>
+	<title>ESP8266 Webserver</title>
+	<h1>\"ESP8266 Web Server Control\"</h1>
+</header>
+<head>
+	<meta http-equiv='refresh' content='5'/>
+</head>
+
+<!--Toggle Device1 ON-->
+<p>
+<form action=\"/status1=1\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device1 ON\">
+</form>
+</p>
+
+<!--Toggle Device1 OFF-->
+<p>
+<form action=\"/status1=0\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device1 OFF\">
+</form>
+</p>
+
+<!--Toggle Device2 ON-->
+<p>
+<form action=\"/status2=1\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device2 ON\">
+</form>
+</p>
+
+<!--Toggle Device2 OFF-->
+<p>
+<form action=\"/status2=0\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device2 OFF\">
+</form>
+</p>
+
+<!--Toggle Device3 ON-->
+<p>
+<form action=\"/status3=1\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device3 ON\">
+</form>
+</p>
+
+<!--Toggle Device3 OFF-->
+<p>
+<form action=\"/status3=0\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device3 OFF\">
+</form>
+</p>
+
+<!--Toggle Device4 ON-->
+<p>
+<form action=\"/status4=1\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device4 ON\">
+</form>
+</p>
+
+<!--Toggle Device4 OFF-->
+<p>
+<form action=\"/status4=0\" method=\"POST\">
+<input type=\"submit\" value=\"Toggle Device4 OFF\">
+</form>
+</p>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
